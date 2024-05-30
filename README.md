@@ -20,7 +20,8 @@ A classic Snake game built using JavaScript, HTML, and CSS. The player controls 
 
 2. Navigate to the project directory:
 
-cd snake-game
+```cd snake-game```
+
 Open the index.html file in your web browser:
 
 You can simply double-click the index.html file or open it with your preferred web browser.
