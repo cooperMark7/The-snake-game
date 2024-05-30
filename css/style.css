@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("../img/Black.jpg"); 
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    /*so that the backround image does not repeat */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+    /*specifies the default alignment for items 
+    inside the flexible container).*/
+    align-items: center;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: 'New Tegomin', serif;
+}
+
+#board{
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    width: 100vmin;
+    height: 100vmin;
+    border: 2px solid rgb(255, 255, 255);
+    
+    /*Forming a grid for the game*/
+    
+    display: grid; 
+    
+    /*making the grid in which there
+    are 18 rows of 1fr unit width*/
+
+   
+    grid-template-rows: repeat(18, 1fr);
+
+    /*making 20 columbs with 1fr unit height  */
+
+    grid-template-columns: repeat(18, 1fr);
+
+
+
+}
+/*creating the class for the sanke head*/
+.head{
+    background: linear-gradient(rgb(162, 233, 124), rgb(233, 233, 106));
+    border: 2px solid rgb(34, 4, 34); 
+
+    /*(applies a 2D or 3D transformation to an element).*/
+    transform: scale(1.02);
+   /*defines the radius of the element's corners*/
+    border-radius: 9px;
+}
+/* creating a class representing the snake body */
+.snake{
+    background-color: rgb(255, 218, 83);
+    border: .50vmin solid white;
+    border-radius: 12px;
+}
+/* creating a class representing the food*/
+.food{
+    background: linear-gradient(rgb(0, 221, 255), rgb(247, 235, 247));
+    border: .50vmin solid black;
+    border-radius: 8px;
+}
