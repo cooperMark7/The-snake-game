@@ -20,7 +20,7 @@ A classic Snake game built using JavaScript, HTML, and CSS. The player controls 
 
 2. Navigate to the project directory:
 
-```cd snake-game```
+cd The-snake-game
 
 Open the index.html file in your web browser:
 
@@ -46,6 +46,11 @@ HTML: Provides the basic structure of the game board.
 CSS: Styles the game elements and provides visual feedback.
 JavaScript: Implements the game logic, including snake movement, collision detection, food generation, and game state management.
 Code Structure
+index.html: The main HTML file that sets up the game structure.
+styles.css: The CSS file that styles the game elements.
+script.js: The JavaScript file that handles the game logic.
+
+## Code Structure
 index.html: The main HTML file that sets up the game structure.
 styles.css: The CSS file that styles the game elements.
 script.js: The JavaScript file that handles the game logic.
