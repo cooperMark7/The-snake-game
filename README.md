@@ -1,4 +1,5 @@
-# The-snake-game-
+# The-snake-game
+
 A classic Snake game built using JavaScript, HTML, and CSS. The player controls a snake that moves around the screen, with the goal of eating food to grow longer while avoiding collisions with the walls and its own tail. The game gets progressively harder as the snake grows in length.
 
 ## Table of Contents
